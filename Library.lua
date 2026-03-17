@@ -179,7 +179,7 @@ Utility:Create("TextLabel", {
     Position = UDim2.new(0, 35, 0, 18),
     Size = UDim2.new(1, -35, 0, 14),
     Font = Enum.Font.Gotham,
-    Text = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
+    Text = tostring(game.PlaceId),
     TextColor3 = Theme.SubText,
     TextSize = 10,
     TextXAlignment = Enum.TextXAlignment.Left
